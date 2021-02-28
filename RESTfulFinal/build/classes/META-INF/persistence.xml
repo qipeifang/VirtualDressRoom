@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/persistence persistence_1_0.xsd">
+ 
+    <persistence-unit name="sqlserver2008" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <properties>  
+            <property name="hibernate.connection.driver_class" value="com.jnetdirect.jsql.JSQLDriver" />
+            <property name="hibernate.connection.url" value="jdbc:JSQLConnect://127.0.0.1:1433/restDB" />  
+            <property name="hibernate.connection.username" value="restAdmin" />  
+            <property name="hibernate.connection.password" value="1" />
+            <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServer2008Dialect" />   
+            <property name="hibernate.show_sql" value="true"/>  
+            <property name="hibernate.format_sql" value="true"/>   
+            <property name="hibernate.hbm2ddl.auto" value="none"/>  
+            <property name="hibernate.max_fetch_depth" value="3" />
+            <property name="hibernate.ejb.naming_strategy" value="restful.database.SqlServer"/>
+        </properties>
+    </persistence-unit>
+ 
+</persistence>

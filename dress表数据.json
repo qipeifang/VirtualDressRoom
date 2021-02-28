@@ -1,0 +1,272 @@
+ [{"dressId": "1", 
+    "dressName": "男休闲皮带", 
+    "dressPrice": "200.0000", 
+    "sex": "true", 
+    "dressType": "belt", 
+    "dress_url": "mBelt01.png"
+  }, 
+  {
+    "dressId": "2", 
+    "dressName": "男休闲牛仔裤", 
+    "dressPrice": "358.0000", 
+    "sex": "true", 
+    "dressType": "jeans", 
+    "dress_url": "mJean01.png"
+  }, 
+  {
+    "dressId": "3", 
+    "dressName": "男休闲牛仔裤", 
+    "dressPrice": "288.0000", 
+    "sex": "true", 
+    "dressType": "jeans", 
+    "dress_url": "mJean02.png"
+  }, 
+  {
+    "dressId": "4", 
+    "dressName": "男休闲皮外套", 
+    "dressPrice": "500.0000", 
+    "sex": "true", 
+    "dressType": "outwear", 
+    "dress_url": "mOutWear01.png"
+  }, 
+  {
+    "dressId": "5", 
+    "dressName": "男休闲厚外套", 
+    "dressPrice": "700.0000", 
+    "sex": "true", 
+    "dressType": "outwear", 
+    "dress_url": "mOutWear02.png"
+  }, 
+  {
+    "dressId": "6", 
+    "dressName": "男休闲衬衫", 
+    "dressPrice": "198.0000", 
+    "sex": "true", 
+    "dressType": "shirt", 
+    "dress_url": "mShirt01.png"
+  }, 
+  {
+    "dressId": "7", 
+    "dressName": "男商务长袖衬衫", 
+    "dressPrice": "298.0000", 
+    "sex": "true", 
+    "dressType": "shirt", 
+    "dress_url": "mShirt02.png"
+  }, 
+  {
+    "dressId": "8", 
+    "dressName": "男休闲皮鞋", 
+    "dressPrice": "460.0000", 
+    "sex": "true", 
+    "dressType": "shoe", 
+    "dress_url": "mShoe01.png"
+  }, 
+  {
+    "dressId": "9", 
+    "dressName": "男休闲运动鞋", 
+    "dressPrice": "290.0000", 
+    "sex": "true", 
+    "dressType": "shoe", 
+    "dress_url": "mShoe02.png"
+  }, 
+  {
+    "dressId": "10", 
+    "dressName": "男休闲毛衣", 
+    "dressPrice": "358.0000", 
+    "sex": "true", 
+    "dressType": "sweater", 
+    "dress_url": "mSweater01.png"
+  }, 
+  {
+    "dressId": "11", 
+    "dressName": "男LEE休闲T恤", 
+    "dressPrice": "128.0000", 
+    "sex": "true", 
+    "dressType": "tshirt", 
+    "dress_url": "mTShirt01.png"
+  }, 
+  {
+    "dressId": "12", 
+    "dressName": "男横条长袖T恤", 
+    "dressPrice": "218.0000", 
+    "sex": "true", 
+    "dressType": "tshirt", 
+    "dress_url": "mTShirt02.png"
+  }, 
+  {
+    "dressId": "13", 
+    "dressName": "白内裤", 
+    "dressPrice": "60.0000", 
+    "sex": "true", 
+    "dressType": "underWear", 
+    "dress_url": "mUnderWear01.png"
+  }, 
+  {
+    "dressId": "14", 
+    "dressName": "项链", 
+    "dressPrice": "1000.0000", 
+    "sex": "false", 
+    "dressType": "accessory", 
+    "dress_url": "wAcc01.png"
+  }, 
+  {
+    "dressId": "15", 
+    "dressName": "眼镜", 
+    "dressPrice": "600.0000", 
+    "sex": "false", 
+    "dressType": "accessory", 
+    "dress_url": "wAcc02.png"
+  }, 
+  {
+    "dressId": "16", 
+    "dressName": "单肩斜挎包", 
+    "dressPrice": "800.0000", 
+    "sex": "false", 
+    "dressType": "bag", 
+    "dress_url": "wBag01.png"
+  }, 
+  {
+    "dressId": "17", 
+    "dressName": "帽子", 
+    "dressPrice": "200.0000", 
+    "sex": "false", 
+    "dressType": "hat", 
+    "dress_url": "wHat01.png"
+  }, 
+  {
+    "dressId": "18", 
+    "dressName": "黑色牛仔裤（女）", 
+    "dressPrice": "200.0000", 
+    "sex": "false", 
+    "dressType": "jeans", 
+    "dress_url": "wJean01.png"
+  }, 
+  {
+    "dressId": "19", 
+    "dressName": "蓝灰短裤", 
+    "dressPrice": "180.0000", 
+    "sex": "false", 
+    "dressType": "jeans", 
+    "dress_url": "wJean02.png"
+  }, 
+  {
+    "dressId": "20", 
+    "dressName": "红色短裤", 
+    "dressPrice": "180.0000", 
+    "sex": "false", 
+    "dressType": "jeans", 
+    "dress_url": "wJean03.png"
+  }, 
+  {
+    "dressId": "21", 
+    "dressName": "奶白长裤", 
+    "dressPrice": "280.0000", 
+    "sex": "false", 
+    "dressType": "jeans", 
+    "dress_url": "wJean04.png"
+  }, 
+  {
+    "dressId": "22", 
+    "dressName": "黑色短裤", 
+    "dressPrice": "180.0000", 
+    "sex": "false", 
+    "dressType": "jeans", 
+    "dress_url": "wJean05.png"
+  }, 
+  {
+    "dressId": "23", 
+    "dressName": "碎花衫", 
+    "dressPrice": "280.0000", 
+    "sex": "false", 
+    "dressType": "shirt", 
+    "dress_url": "wShirt01.png"
+  }, 
+  {
+    "dressId": "24", 
+    "dressName": "红色点衫", 
+    "dressPrice": "320.0000", 
+    "sex": "false", 
+    "dressType": "shirt", 
+    "dress_url": "wShirt02.png"
+  }, 
+  {
+    "dressId": "25", 
+    "dressName": "蓝色花衫", 
+    "dressPrice": "360.0000", 
+    "sex": "false", 
+    "dressType": "shirt", 
+    "dress_url": "wShirt03.png"
+  }, 
+  {
+    "dressId": "26", 
+    "dressName": "女鞋", 
+    "dressPrice": "400.0000", 
+    "sex": "false", 
+    "dressType": "shoe", 
+    "dress_url": "wShoe01.png"
+  }, 
+  {
+    "dressId": "27", 
+    "dressName": "灰色连衣裙", 
+    "dressPrice": "360.0000", 
+    "sex": "false", 
+    "dressType": "skirt", 
+    "dress_url": "wSkirt01.png"
+  }, 
+  {
+    "dressId": "28", 
+    "dressName": "深棕色连衣裙", 
+    "dressPrice": "450.0000", 
+    "sex": "false", 
+    "dressType": "skirt", 
+    "dress_url": "wSkirt02.png"
+  }, 
+  {
+    "dressId": "29", 
+    "dressName": "黑色杂花连衣裙", 
+    "dressPrice": "680.0000", 
+    "sex": "false", 
+    "dressType": "skirt", 
+    "dress_url": "wSkirt03.png"
+  }, 
+  {
+    "dressId": "30", 
+    "dressName": "碎花中裙短袖", 
+    "dressPrice": "299.0000", 
+    "sex": "false", 
+    "dressType": "skirt", 
+    "dress_url": "wSkirt04.png"
+  }, 
+  {
+    "dressId": "31", 
+    "dressName": "碎花中裙长袖", 
+    "dressPrice": "390.0000", 
+    "sex": "false", 
+    "dressType": "skirt", 
+    "dress_url": "wSkirt05.png"
+  }, 
+  {
+    "dressId": "32", 
+    "dressName": "雀金裙", 
+    "dressPrice": "290.0000", 
+    "sex": "false", 
+    "dressType": "skirt", 
+    "dress_url": "wSkirt06.png"
+  }, 
+  {
+    "dressId": "33", 
+    "dressName": "闪金裙", 
+    "dressPrice": "350.0000", 
+    "sex": "false", 
+    "dressType": "skirt", 
+    "dress_url": "wSkirt07.png"
+  }, 
+  {
+    "dressId": "34", 
+    "dressName": "女西装", 
+    "dressPrice": "900.0000", 
+    "sex": "false", 
+    "dressType": "suit", 
+    "dress_url": "wSuit01.png"
+  }
+ ]

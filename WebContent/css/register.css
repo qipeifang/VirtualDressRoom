@@ -1,0 +1,114 @@
+﻿body {
+    background-color: #C4C4C4;
+    background-image: url('../img/beijing.png');
+    width: 100%;
+    height: 100%;
+}
+#loginDiv {
+    background-color: #FFFFFF;
+    width: 380px;
+    height: auto;
+    /* margin: 14% 0 0 70%; */
+    margin-top: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius:15px;
+    box-shadow: 5px 5px 20px  rgba(0,0,0,0.4);
+}
+#title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: TradeGothicforNike365-BdCn,Helvetica!important;
+    font-size: 26px;
+    font-weight: 700;
+    color: #334DC4;
+}
+#main {
+    text-align: center;
+}
+input {
+    font-size: 20px;
+    width: 280px;
+    height: 40px;
+    border-radius:20px;
+    margin: 10px 0 10px 0;
+    padding-left: 10px;
+    border:gainsboro solid 2px;
+}
+        ﻿
+.input_1 {
+    font-size: 20px;
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0px 0 10px 0;
+    padding-left: 10px;
+    border: gainsboro solid 2px;
+}
+
+.input_2 {
+   	font-size: 20px;
+    width: 280px;
+    height: 40px;
+   	border-radius: 20px;
+    margin: 10px 0 0px 0;
+    padding-left: 10px;
+    border: gainsboro solid 2px;
+}
+
+.bt {
+	width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    background-color: #334DC4;
+    cursor: pointer;
+}
+#bt2{
+   	background-color: #FCA513;
+}
+.sexbt{
+    width: 80px;
+    height: 40px;
+    color: black;
+    border:#334DC4 solid 2px;
+    background-color: white;
+    cursor: pointer;
+}
+.sexbt:hover{
+    width: 80px;
+    height: 40px;
+    color: white;
+    border:#FCA513 solid 2px;
+    background-color: #FCA513;
+}
+.sexbtclick{
+    width: 80px;
+    height: 40px;
+    color: white;
+    border:#334DC4 solid 2px;
+    background-color: #334DC4;
+    cursor: pointer;
+}
+#modelTypeMan,#modelTypeWoman{
+    width: 380px;
+    height: 130px;
+}
+.modelclick{
+    border-radius: 5px;
+    border:#334DC4 solid 2px;
+    display:inline;
+    background: #DCDCDC;
+}
+.modelunclick{
+    border-radius: 5px;
+    border:white solid 2px;
+    display:inline;
+    background: white;
+}
+.modelunclick:hover{
+    border-radius: 5px;
+    border:#334DC4 solid 2px;
+    display:inline;
+    background: white;
+}

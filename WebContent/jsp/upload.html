@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+<link href="../css/jquery.fileupload.css" rel="stylesheet"
+	type="text/css">
+<link href="../css/jquery.fileupload-ui.css" rel="stylesheet"
+	type="text/css">
+<style>
+.Uploading {
+	background: powderblue;
+}
+</style>
+<body>
+	<div id="uploaderContainer">
+		<!-- 
+  		 input id="fileupload" type="file" name="files[]" multiple data-url="http://127.0.0.1:8080/BaseBeanTesta/test/upload"> 
+		 -->
+		<input id="fileupload" type="file" name="files[]"/>
+		<br>
+		<button id="btn">提交</button>
+		<br>
+		<img id="imgId" alt="haha图片" style="width: 40vw; height: 40vh;" />
+	</div>
+</body>
+<script src="../js/jquery-3.3.1.js" type="text/javascript"></script>
+<script src="../js/jquery.min.js" type="text/javascript"></script>
+<script src="../js/vendor/jquery.ui.widget.js"></script>
+<script src="../js/jquery.iframe-transport.js" type="text/javascript"></script>
+<script src="../js/jquery.fileupload.js" type="text/javascript"></script>
+<!-- script src="../js/main.js" type="text/javascript"></script-->
+<script type="text/javascript">
+$(function () {
+    $('#fileupload').fileupload({
+    	url: "/suit/userAPI/upload",
+    	autoUpload: true,
+        dataType: 'json',
+        
+        done: function (e, data) {
+            console.log({"code":0,"description":data.result.description+"上传成功！"});
+            imgs=data.result.description;
+            $("#imgId").attr("src",  "../dressImgs/"+data.result.description);
+        }
+	 	});
+	});
+</script>
+</html>

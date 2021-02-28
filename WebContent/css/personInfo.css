@@ -1,0 +1,119 @@
+#main {
+	text-align: center;
+	font-size: 18px;
+}
+
+#personInfoDiv {
+	float: left;
+	background-color: #FFFFFF;
+	width: 380px;
+	height: auto;
+	margin: 2% 0 0 32%;
+	padding-bottom: 30px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+	display: none;
+}
+
+#title {
+	text-align: center;
+	margin: 10px 0 10px 0;
+	font-family: TradeGothicforNike365-BdCn, Helvetica !important;
+	font-size: 26px;
+	font-weight: 700;
+	color: #334DC4;
+}
+
+input {
+	font-size: 20px;
+	width: 200px;
+	height: 35px;
+	border-radius: 20px;
+	margin: 10px 0 10px 0;
+	padding-left: 10px;
+	border: gainsboro solid 2px;
+}
+
+.input_1 {
+	font-size: 20px;
+	width: 200px;
+	height: 35px;
+	border-radius: 20px;
+	margin: 3px 0 10px 0;
+	padding-left: 10px;
+	border: gainsboro solid 2px;
+}
+
+.input_2 {
+	font-size: 20px;
+	width: 200px;
+	height: 35px;
+	border-radius: 20px;
+	margin: 10px 0 0px 0;
+	padding-left: 10px;
+	border: gainsboro solid 2px;
+}
+
+.bt {
+	width: 120px;
+	height: 40px;
+	color: white;
+	border: none;
+	background-color: #334DC4;
+	cursor: pointer;
+}
+
+.sexbt {
+	width: 80px;
+	height: 40px;
+	color: black;
+	border: #334DC4 solid 2px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.sexbt:hover {
+	width: 80px;
+	height: 40px;
+	color: white;
+	border: #FCA513 solid 2px;
+	background-color: #FCA513;
+}
+
+.sexbtclick {
+	width: 80px;
+	height: 40px;
+	color: white;
+	border: #334DC4 solid 2px;
+	background-color: #334DC4;
+}
+
+#modelTypeMan,
+#modelTypeWoman {
+	width: 380px;
+	height: 130px;
+	cursor: pointer;
+}
+
+.modelclick {
+	border-radius: 5px;
+	border: #334DC4 solid 2px;
+	display: inline;
+	background: #DCDCDC;
+	cursor: pointer;
+}
+
+.modelunclick {
+	border-radius: 5px;
+	border: white solid 2px;
+	display: inline;
+	background: white;
+	cursor: pointer;
+}
+
+.modelunclick:hover {
+	border-radius: 5px;
+	border: #334DC4 solid 2px;
+	display: inline;
+	background: white;
+}

@@ -1,0 +1,93 @@
+#usersManageInfoDiv {
+	width: 901px;
+	height: auto;
+	margin: 2% 0 0 23%;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+	background-color: white;
+	display: none;
+	position: absolute;
+	z-index: 100;
+}
+
+table {
+	width: 900px;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: #334DC4;
+	height: 30px;
+	color: white;
+	font-weight: normal;
+}
+
+td {
+	border: 1px solid #bfbfbf;
+	text-align: center;
+	vertical-align: middle;
+}
+
+tr:hover {
+	background-color: #DCDCDC;
+}
+
+td:hover {
+	background-color: #FCA513;
+	color: white;
+}
+
+td img {
+	width: 32px;
+	height: 45px;
+}
+
+#revise {
+	width: 60px;
+	height: 30px;
+	color: white;
+	border: none;
+	background-color: #334DC4;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	margin-right: 20px;
+}
+
+#delet {
+	width: 60px;
+	height: 30px;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	font-size: 16px;
+	background-color: red;
+	cursor: pointer;
+	text-align: center;
+}
+
+#updatePersonInfoDiv {
+	background-color: #FFFFFF;
+	width: 380px;
+	height: auto;
+	margin: 2% 0 0 40%;
+	padding-bottom: 30px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+	position: absolute;
+	z-index: 1000;
+	display: none;
+}
+
+#adminDiv {
+	margin-left: -80px;
+}
+
+.adminRadio {
+	width: 20px;
+	height: 20px;
+}
+
+#admincloseWindow {
+	background-color: red;
+}

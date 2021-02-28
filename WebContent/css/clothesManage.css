@@ -1,0 +1,141 @@
+#clothesManageInfoDiv {
+	float: left;
+	width: 82%;
+	height: auto;
+	margin: 1% 0 0 4%;
+	display: none;
+}
+
+#searchClothes {
+	width: 360px;
+	background-color: white;
+	padding: 2px 15px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+	margin-bottom: 10px;
+}
+
+select {
+	width: 60px;
+	height: 30px;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+#search {
+	width: 70px;
+	height: 30px;
+	color: white;
+	border: none;
+	background-color: red;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
+
+#clothesDetailAddDiv {
+	float: left;
+	width: 250px;
+	height: 270px;
+	text-align: center;
+	margin: 10px 30px 0 0;
+	padding: 0 20px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.clothesInput {
+	width: 140px;
+	height: 28px;
+	margin: 0 0 5px 0;
+	font-size: 16px;
+	border-radius: 8px;
+	border: gray solid 1px;
+	padding: 0;
+}
+
+.selectInput {
+	width: 140px;
+	height: 28px;
+	border-radius: 8px;
+	margin: 0 0 5px 0;
+	border: none;
+	font-size: 16px;
+	border: gray solid 1px;
+}
+
+.clothesAdd {
+	width: 80px;
+	height: 30px;
+	color: white;
+	border: none;
+	background-color: #334DC4;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.clothesDetailInfoDiv {
+	float: left;
+	width: 355px;
+	height: 270px;
+	text-align: center;
+	margin: 10px 10px 0 0;
+	padding: 0 6px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+#clothesImageInfo {
+	float: left;
+	width: 160px;
+	height: 170px;
+}
+
+.ImgInfoDiv {
+	width: 160px;
+	height: 150px;
+}
+
+.ImgInfoDiv img {
+	width: 90px;
+	height: 130px;
+	margin-top: 5px;
+}
+
+.clothesSave {
+	width: 60px;
+	height: 30px;
+	color: white;
+	border: none;
+	background-color: #334DC4;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.clothesDelete {
+	width: 60px;
+	height: 30px;
+	color: white;
+	border: none;
+	background-color: red;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
+
+#addImg {
+	cursor: pointer;
+}
+
+.uploadImg {
+	display: none;
+}

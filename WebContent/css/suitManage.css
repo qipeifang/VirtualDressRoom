@@ -1,0 +1,81 @@
+#suitManageInfoDiv {
+	float: left;
+	width: 80%;
+	height: auto;
+	margin: 2% 0 0 5%;
+	/* border-radius:15px;
+    box-shadow: 5px 5px 20px  rgba(0,0,0,0.4);*/
+	display: none;
+}
+
+.dressType {
+	float: left;
+	width: auto;
+	height: auto;
+	text-align: center;
+	margin: 0 0 20px 20px;
+	padding: 0 10px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.dressTitle {
+	font-family: TradeGothicforNike365-BdCn, Helvetica!important;
+	font-size: 20px;
+	font-weight: 700;
+	color: #334DC4;
+	margin: 8px 0;
+}
+
+.dressInput {
+	width: 180px;
+	height: 30px;
+}
+
+#dressIdInfo {
+	width: 180px;
+	height: 30px;
+}
+
+#dressNameInfo {
+	width: 180px;
+	height: 30px;
+}
+
+.dressAdd {
+	width: 80px;
+	height: 30px;
+	color: white;
+	border: none;
+	background-color: #334DC4;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.dressSave {
+	width: 80px;
+	height: 30px;
+	color: white;
+	border: none;
+	margin-right: 10px;
+	background-color: #334DC4;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.dressdelete {
+	width: 80px;
+	height: 30px;
+	color: white;
+	border: none;
+	background-color: red;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
